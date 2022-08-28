@@ -8,6 +8,7 @@ import LoginPage from './components/login-page'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // main entry point
   <LoginPage/>
 );
 

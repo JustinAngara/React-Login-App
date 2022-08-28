@@ -3,14 +3,15 @@ import React from 'react';
 export default class Navbar extends React.Component{
     render(){
         return(
-            <nav class="New-nav">
+            // gives out a navbar 
+            <nav className="New-nav">
                 Navigation
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                <li className="nav-item">
+                    <a className="nav-link">Contact</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sign up</a>
+                <li className="nav-item">
+                    <a className="nav-link">Sign up</a>
                 </li>
             </nav>
         );

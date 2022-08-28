@@ -5,6 +5,7 @@ import LoginButton from './login-button'
 import Navbar from "./navbar";
 export default class LoginPage extends React.Component{
     render(){
+        // containts the components lsited together
         return(
             <div className="container">
                 <Navbar/>
